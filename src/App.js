@@ -13,7 +13,7 @@ import FilterSpecialRemarks from "./pages/report/filter_sr";
 
 function App() {
   return (
-    <Router basename={'/lukes/build/'}>
+    <Router basename={'/'}>
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />     

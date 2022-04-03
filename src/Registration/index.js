@@ -7,8 +7,8 @@ import axios from "axios";
 const border = {
     border: "2px solid #73AD21",
     borderRadius: "5px",
-    padding: "20px",
-    marginBottom: "10px",
+    padding: "4px",
+    marginBottom: "4px",
     marginLeft: "10px",
     marginRight: "10px"
 }

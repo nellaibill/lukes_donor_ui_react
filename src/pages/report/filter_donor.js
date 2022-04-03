@@ -145,7 +145,7 @@ function FilterDonor() {
       <div className="col-md-2"></div>
     </div>
     <div className="row" style={function_div}>
-      <SCheckbox displayName="CS" name="SupportBS" onChange={onChange} checked={SupportCS} />
+      <SCheckbox displayName="CS" name="SupportCS" onChange={onChange} checked={SupportCS} />
       <SCheckbox displayName="FS" name="SupportFS" onChange={onChange} checked={SupportFS} />
       <SCheckbox displayName="BS" name="SupportBS" onChange={onChange} checked={SupportBS} />
       <SCheckbox displayName="Cloth Support" name="SupportCloth" onChange={onChange} checked={SupportCloth} />

@@ -33,7 +33,7 @@ export const STextBoxSix = props => (
 )
 export const SCheckbox = props => (
     <div className="col-md-2">
-        <input style={{ width: "15px", height: "15px" }} type="checkbox" {...props} />
+        <input style={{ width: "20px", height: "20px" }} type="checkbox" {...props} />
         <label style={{ fontSize: "15px", paddingLeft: "10px", paddingBottom: "10px" }}{...props}>{props.displayName}</label>
     </div>
 )
